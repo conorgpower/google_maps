@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="StartScreenController">
+  <children>
+    <Text layoutX="256.0" layoutY="65.0" scaleX="3.526247585837349" scaleY="3.0245720980542905" strokeType="OUTSIDE" strokeWidth="0.0" text="Google Maps">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Text>
+    <VBox layoutX="89.0" layoutY="136.0" prefHeight="39.0" prefWidth="381.0">
+      <children>
+        <TextField id="route" fx:id="startPoint" minHeight="4.0" prefHeight="39.0" prefWidth="367.0" promptText="Enter starting point" />
+      </children>
+    </VBox>
+    <Button layoutX="89.0" layoutY="294.0" mnemonicParsing="false" onAction="#shortestRoute" prefHeight="39.0" prefWidth="147.0" text="Shortest Route" />
+    <TextField id="route" fx:id="destinationPoint" layoutX="89.0" layoutY="190.0" minHeight="4.0" prefHeight="39.0" prefWidth="381.0" promptText="Enter destination" />
+    <Button layoutX="323.0" layoutY="294.0" mnemonicParsing="false" onAction="#quickestRoute" prefHeight="39.0" prefWidth="147.0" text="Quickest Route" />
+  </children>
+  <stylesheets>
+    <URL value="@../background/style.css" />
+  </stylesheets>
+</AnchorPane>

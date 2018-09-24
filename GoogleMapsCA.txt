@@ -1,0 +1,56 @@
+graphNode data Waterford
+graphNode data Dungarvan
+graphNode data Dublin
+graphNode data Enniscorthy
+graphNode data Naas
+graphNode data Carlow
+graphNode data Killkenny
+graphNode data Clonmel
+graphNode data Cork
+graphNode data Limerick
+graphNode data Killarney
+graphNode data Wexford
+graphNode data Tipperary
+graphNode data Mallow
+graphNode data Mitchelstown
+graphNode data Fermoy
+graphNode data Tralee
+graphNode data Roscrea
+graphNode data Portlaoise
+graphLink sourceNode Dublin destNode Naas cost 37 speed 100
+graphLink sourceNode Dublin destNode Enniscorthy cost 135 speed 100
+graphLink sourceNode Naas destNode Carlow cost 59 speed 100
+graphLink sourceNode Naas destNode Portlaoise cost 60 speed 100
+graphLink sourceNode Portlaoise destNode Tipperary cost 100 speed 100
+graphLink sourceNode Portlaoise destNode Roscrea cost 45 speed 100
+graphLink sourceNode Carlow destNode Killkenny cost 38 speed 100
+graphLink sourceNode Carlow destNode Portlaoise cost 38 speed 100
+graphLink sourceNode Carlow destNode Enniscorthy cost 52 speed 100
+graphLink sourceNode Enniscorthy destNode Wexford cost 23 speed 100
+graphLink sourceNode Killkenny destNode Clonmel cost 53 speed 100
+graphLink sourceNode Killkenny destNode Portlaoise cost 49 speed 100
+graphLink sourceNode Clonmel destNode Waterford cost 48 speed 100
+graphLink sourceNode Clonmel destNode Mitchelstown cost 54 speed 100
+graphLink sourceNode Clonmel destNode Tipperary cost 42 speed 100
+graphLink sourceNode Waterford destNode Wexford cost 60 speed 100
+graphLink sourceNode Waterford destNode Enniscorthy cost 54 speed 100
+graphLink sourceNode Waterford destNode Killkenny cost 51 speed 100
+graphLink sourceNode Waterford destNode Clonmel cost 47 speed 100
+graphLink sourceNode Waterford destNode Dungarvan cost 49 speed 100
+graphLink sourceNode Dungarvan destNode Cork cost 83 speed 100
+graphLink sourceNode Dungarvan destNode Fermoy cost 51 speed 100
+graphLink sourceNode Cork destNode Mallow cost 35 speed 100
+graphLink sourceNode Cork destNode Killarney cost 85 speed 100
+graphLink sourceNode Cork destNode Fermoy cost 36 speed 100
+graphLink sourceNode Limerick destNode Roscrea cost 72 speed 100
+graphLink sourceNode Limerick destNode Mallow cost 66 speed 100
+graphLink sourceNode Limerick destNode Tralee cost 102 speed 100
+graphLink sourceNode Limerick destNode Tipperary cost 40 speed 100
+graphLink sourceNode Killarney destNode Tralee cost 34 speed 100
+graphLink sourceNode Killarney destNode Mallow cost 65 speed 100
+graphLink sourceNode Killarney destNode Cork cost 85 speed 100
+graphLink sourceNode Tipperary destNode Roscrea cost 65 speed 100
+graphLink sourceNode Tipperary destNode Mitchelstown cost 35 speed 100
+graphLink sourceNode Mallow destNode Mitchelstown cost 34 speed 100
+graphLink sourceNode Mallow destNode Fermoy cost 30 speed 100
+graphLink sourceNode Mitchelstown destNode Fermoy cost 20 speed 100
